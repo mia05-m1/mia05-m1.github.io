@@ -43,7 +43,7 @@ available articles. I shared prompts with the AI, not company data.
 ## Project 2: Internal Knowledge Base Audit for AI Chatbot Readiness
 
 ### The Problem
-Our internal knowledge base, 800 articles written by multiple 
+Our internal knowledge base, 700+ articles written by multiple 
 contributors, was being connected to an AI support chatbot.
 
 For a chatbot to give accurate answers, the articles feeding it 
@@ -71,12 +71,12 @@ The output was a structured Excel report the team could sort,
 filter, and act on immediately.
 
 ### The Result
-The report gave us full visibility for the first time. The team used 
+The report gave us full visibility for the first time. The team will use 
 it to:
 - Retire outdated articles that were confusing the chatbot
 - Identify articles that needed to be shortened for better retrieval
 - Assign edit access to the right people
-- Prioritize content cleanup before the chatbot went live
+- Prioritize content cleanup before the chatbot goes live
 
 ### A Note on Ethics
 I used AI only to generate the code, not to process any article 
