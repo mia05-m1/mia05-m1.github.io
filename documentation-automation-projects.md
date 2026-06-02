@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Documentation Automation Projects
 
 ## Why I Built These
