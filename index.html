@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Malti Chainani | Technical Writer</title>
+
+  <!-- Inter Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #f9f8fc;
+      --card: #ffffff;
+      --text: #2d2d34;
+      --muted: #6b7280;
+      --accent: #7c5cbf;
+      --accent-dark: #5b4a8a;
+      --accent-soft: #ede8f7;
+      --border: #ddd6f0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      max-width: 820px;
+      margin: 40px auto;
+      padding: 0 24px;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    header {
+      padding: 70px 0 30px;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 40px;
+
+      background: linear-gradient(
+        to bottom,
+        rgba(201,184,232,0.12),
+        transparent
+      );
+    }
+
+    h1 {
+      color: var(--accent-dark);
+      font-size: 2.8rem;
+      letter-spacing: -1px;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
+      color: var(--muted);
+      font-size: 1.1rem;
+      max-width: 650px;
+      margin-bottom: 20px;
+    }
+
+    nav {
+      margin-top: 16px;
+    }
+
+    nav a {
+      margin-right: 20px;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: opacity 0.2s ease;
+    }
+
+    nav a:hover {
+      opacity: 0.7;
+    }
+
+    h2 {
+      color: var(--accent-dark);
+      margin: 55px 0 18px;
+      font-size: 1.35rem;
+      border-left: 4px solid #c9b8e8;
+      padding-left: 12px;
+    }
+
+    p {
+      margin-bottom: 16px;
+      max-width: 72ch;
+    }
+
+    .project {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
+      margin: 20px 0;
+
+      transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 30px rgba(124,92,191,0.12);
+    }
+
+    .project h3 {
+      color: var(--accent-dark);
+      font-size: 1.08rem;
+      margin-bottom: 12px;
+    }
+
+    .project p {
+      color: #555;
+      font-size: 0.97rem;
+      margin-bottom: 12px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--accent-soft);
+      color: #6b4faa;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      margin: 4px 4px 0 0;
+    }
+
+    .project a {
+      display: inline-block;
+      margin-top: 14px;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.93rem;
+      font-weight: 500;
+      transition: opacity 0.2s ease;
+    }
+
+    .project a:hover {
+      opacity: 0.7;
+    }
+
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .skills-grid span {
+      background: var(--accent-soft);
+      color: var(--accent-dark);
+      padding: 7px 15px;
+      border-radius: 999px;
+      font-size: 0.88rem;
+    }
+
+    footer {
+      margin-top: 70px;
+      padding: 24px 0 40px;
+      border-top: 1px solid var(--border);
+      color: #999;
+      font-size: 0.88rem;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      opacity: 0.7;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Malti Chainani</h1>
+
+    <p class="tagline">
+      I help people understand complex systems, workflows,
+      and products through clear documentation.
+    </p>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="mailto:malti.chainani@gmail.com">Get in Touch</a>
+    </nav>
+
+  </header>
+
+  <h2 id="about">About</h2>
+
+  <p>
+    I am a technical writer with 3+ years of experience documenting SaaS
+    products, enterprise workflows, and technical documentation systems.
+    I am currently the sole technical writer at my organization, which means
+    I own documentation end to end across multiple products and teams.
+  </p>
+
+  <p>
+    I work with Product, Engineering, UX, QA, Customer Success, Marketing,
+    and Training teams. I also get direct access to support tickets, so I
+    see exactly where documentation fails users and fix it. I report to
+    the Director of Service Operations and the Customer Education Manager,
+    which gives me a clear view of how documentation fits into the bigger
+    picture of customer experience.
+  </p>
+
+  <p>
+    Lately I have been thinking a lot about how AI changes documentation
+    work. Not just what we write, but how we manage, audit, and optimize
+    the content systems behind the writing. The projects below reflect
+    that thinking.
+  </p>
+
+  <h2 id="projects">Projects</h2>
+
+  <div class="project">
+
+    <h3>Documentation Automation: Rebranding and KB Audit</h3>
+
+    <p>
+      Two real problems. Two Python workflows built with AI-assisted code
+      generation. One for detecting legacy terminology across 900+ public
+      Help Center articles during a rebranding initiative. Another for
+      auditing 800 internal knowledge base articles to prepare them for
+      an AI support chatbot, tracking ownership, word count, and
+      retirement candidates.
+    </p>
+
+    <p>
+      This project reflects my interest in documentation operations,
+      AI-assisted workflows, and scalable content systems.
+    </p>
+
+    <span class="tag">Python</span>
+    <span class="tag">Zendesk API</span>
+    <span class="tag">AI-assisted workflows</span>
+    <span class="tag">Content governance</span>
+
+    <br>
+
+    <a href="documentation-automation-projects.md">
+      Read the full case study →
+    </a>
+
+  </div>
+
+  <div class="project">
+
+    <h3></h3>
+
+    <p>
+      
+    </p>
+
+    <span class="tag">Documentation analysis</span>
+    <span class="tag">Markdown</span>
+    <span class="tag">Information architecture</span>
+
+    <br>
+
+    <a href="google-api-notes.md">
+      View the sample →
+    </a>
+
+  </div>
+
+  <div class="project">
+
+    <h3> Guide</h3>
+
+    <p>
+      
+    </p>
+
+    <span class="tag">UX writing</span>
+    <span class="tag">Workflow documentation</span>
+    <span class="tag">Information architecture</span>
+
+    <br>
+
+    <a href="workflow-guide.md">
+      View the guide →
+    </a>
+
+  </div>
+
+  <div class="project">
+
+    <h3>Release Notes Sample</h3>
+
+    <p>
+      
+    </p>
+
+    <span class="tag">Release communication</span>
+    <span class="tag">Product documentation</span>
+
+    <br>
+
+    <a href="release-notes-sample.md">
+      View the sample →
+    </a>
+
+  </div>
+
+  <h2 id="skills">Skills</h2>
+
+  <div class="skills-grid">
+    <span>Technical Documentation</span>
+    <span>Release Notes</span>
+    <span>Workflow Documentation</span>
+    <span>Markdown / HTML / XML</span>
+    <span>Git and Version Control</span>
+    <span>MadCap Flare</span>
+    <span>Zendesk</span>
+    <span>AI-Assisted Documentation</span>
+    <span>Knowledge Base Governance</span>
+    <span>UX Writing</span>
+    <span>Agile Environments</span>
+  </div>
+
+  <footer>
+    <p>
+      Malti Chainani · malti.chainani@gmail.com ·
+      <a href="https://linkedin.com/in/maltic">LinkedIn</a>
+    </p>
+  </footer>
+
+</body>
+</html>
