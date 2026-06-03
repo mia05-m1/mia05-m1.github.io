@@ -1,6 +1,10 @@
-UX & Documentation Case Studies
+---
+layout: default
+---
 
-Why These Cases Stood Out to Me
+# UX & Documentation Case Studies
+
+## Why These Cases Stood Out to Me
 
 Good documentation is not limited to help articles or user guides.
 Sometimes confusion begins inside the product itself — through labels,
@@ -9,16 +13,17 @@ users actually need to know.
 
 These short case studies reflect moments where wording, structure,
 or interface behavior created uncertainty for users. Each one changed
-how I think about clarity, product communication, and user experience. 
+how I think about clarity, product communication, and user experience.
+
 ---
 
-Case Study 1: The XLOOKUP Message That Explained Nothing
+## Case Study 1: The XLOOKUP Message That Explained Nothing
 
-The Problem
+### The Problem
 
 I saw a message in the product:
 
-«“For better flexibility and performance, use XLOOKUP.”»
+> "For better flexibility and performance, use XLOOKUP."
 
 That was the entire message.
 
@@ -38,7 +43,7 @@ As a user, I expected guidance:
 
 The message did not answer any of those questions.
 
-What I Observed
+### What I Observed
 
 The product explained why the feature existed, but not how or when
 users should use it.
@@ -47,7 +52,7 @@ A clearer approach would have explained the practical benefit in
 plain language. For example, stating that XLOOKUP handles changing
 data ranges more reliably and is recommended for new formulas.
 
-What This Taught Me
+### What This Taught Me
 
 This case reinforced how important context is in product messaging.
 Users need explanations that help them make decisions, not abstract
@@ -55,11 +60,11 @@ language that sounds technically impressive.
 
 ---
 
-Case Study 2: Download vs Export — A Button That Lied
+## Case Study 2: Download vs Export — A Button That Lied
 
-The Problem
+### The Problem
 
-I clicked a button labeled “Download.”
+I clicked a button labeled "Download."
 
 What happened instead was an export flow.
 
@@ -71,24 +76,24 @@ scope, or content.
 Because the label did not match the action, it created the wrong
 expectation before the interaction even began.
 
-What I Observed
+### What I Observed
 
 The product used a familiar word that did not accurately describe
 the actual behavior.
 
-Renaming the button to “Export” would have aligned the label with
-the action. 
+Renaming the button to "Export" would have aligned the label with
+the action.
 
-What This Taught Me
+### What This Taught Me
 
 This case showed me how much a single word can shape user expectations.
 Small terminology choices can either reduce confusion or create it.
 
 ---
 
-Case Study 3: The Toggle That Stayed After the Feature Went Live
+## Case Study 3: The Toggle That Stayed After the Feature Went Live
 
-The Problem
+### The Problem
 
 When I joined the company, a feature was controlled through a toggle
 during testing before launch.
@@ -102,16 +107,16 @@ feature was actually available to customers. At one point, I even
 unpublished a document because I worried the feature state might
 confuse users.
 
-What I Observed
+### What I Observed
 
 Technically, nothing was broken. But the interface still suggested
 the feature was temporary or optional.
 
-Toggles are not just technical controls. They also communicate
+Toggleis are not just technical controls. They also communicate
 product state. When those signals remain without context, they
 create hesitation and uncertainty.
 
-What This Taught Me
+### What This Taught Me
 
 This case pushed me to think beyond wording and pay closer attention
 to structural clarity inside products. Even visual signals can shape
@@ -119,9 +124,9 @@ user confidence.
 
 ---
 
-Case Study 4: The Blank Page That Looked Broken
+## Case Study 4: The Blank Page That Looked Broken
 
-The Problem
+### The Problem
 
 I clicked on a tab and saw a blank page.
 
@@ -131,25 +136,27 @@ I immediately assumed something had failed and pressed back.
 The rest of the application worked normally, which made the blank page
 even more confusing. It was not technically an error, but it felt like one.
 
-What I Observed
+### What I Observed
 
 Later, I learned this pattern is called a zero state. But terminology
 alone does not help users understand what they are seeing.
 
-If a page is empty, the interface should explain why
+If a page is empty, the interface should explain why:
 
-No data yet.Nothing created. Action required.
+- No data yet.
+- Nothing created.
+- Action required.
 
 Any amount of context would have reduced uncertainty.
 
 A simple message such as:
 
-«“You don’t have any items yet. Create one to get started.”»
+> "You don't have any items yet. Create one to get started."
 
 would have explained the state clearly and guided the user toward
 the next action.
 
-What This Taught Me
+### What This Taught Me
 
 This case showed me how quickly silence in an interface can turn
 into doubt. Sometimes the absence of communication is itself a
@@ -157,7 +164,7 @@ usability problem.
 
 ---
 
-What These Cases Showed Me
+## What These Cases Showed Me
 
 Clear communication inside products matters just as much as
 documentation outside them.
@@ -170,4 +177,5 @@ These experiences pushed me to think more carefully about:
 - structural communication
 - moments of uncertainty inside workflows
 
-They also reinforced something simple - Users need the right words at the right moment.
+They also reinforced something simple — users need the right words
+at the right moment.
